@@ -1,0 +1,12 @@
+Metric,Value
+Original Rows (segments),144867
+Final Trips (after aggregation),14787
+Negative Distance,0
+Negative Time,0
+Duplicate trip_uuid,0
+Impossible Timestamps (end before start),0
+Missing States,0
+Missing Cities,0
+Infinite/NaN in route_efficiency,0
+Total Features Created,10
+Final Columns,38
