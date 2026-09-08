@@ -3,9 +3,13 @@ import pandas as pd
 import joblib
 import sys
 import json
+from pathlib import Path
 
-sys.path.append('.')
-from app.ai_assistant import client, build_system_prompt
+# Ensure current folder is in Python path
+sys.path.append(str(Path(__file__).resolve().parent))
+
+# Direct module import
+from ai_assistant import client, build_system_prompt
 
 st.set_page_config(page_title="Delhivery Route Intelligence", layout="wide")
 
